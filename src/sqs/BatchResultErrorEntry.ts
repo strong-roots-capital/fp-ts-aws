@@ -12,10 +12,10 @@ import { BatchResultErrorEntry } from '@aws-sdk/client-sqs'
 export type SafeBatchResultErrorEntry = {
     // Needs to support Partial properties
     // [K in keyof BatchResultErrorEntry]: O.Option<NonNullable<BatchResultErrorEntry[K]>>
-    Id: O.Option<string>,
-    SenderFault: O.Option<boolean>,
-    Code: O.Option<string>,
-    Message: O.Option<string>,
+    Id: O.Option<string>
+    SenderFault: O.Option<boolean>
+    Code: O.Option<string>
+    Message: O.Option<string>
 }
 
 /**
