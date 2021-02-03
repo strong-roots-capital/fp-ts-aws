@@ -4,7 +4,7 @@
 
 import * as A from 'fp-ts/Array'
 import * as O from 'fp-ts/Option'
-import { Monoid, getStructMonoid } from 'fp-ts/Monoid'
+import * as M from 'fp-ts/Monoid'
 import {
     SendMessageBatchCommandOutput,
     SendMessageBatchResultEntry,
@@ -38,7 +38,7 @@ export const lift = (
  *
  * @since 0.0.1
  */
-export const Monoid: Monoid<SafeSendMessageBatchCommandOutput> = getStructMonoid(
+export const Monoid: M.Monoid<SafeSendMessageBatchCommandOutput> = M.getStructMonoid(
     {
         Successful: O.getMonoid(A.getMonoid<SendMessageBatchResultEntry>()),
         Failed: O.getMonoid(A.getMonoid<BatchResultErrorEntry>()),
