@@ -12,11 +12,11 @@
     },
     "license": "ISC",
     "author": "Eric Crosson <eric.s.crosson@utexas.edu> (https://github.com/EricCrosson)",
-    "main": "dist/src/index.js",
-    "types": "dist/src/index.d.ts",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "sideEffects": false,
     "files": [
-        "dist/src/"
+        "dist/"
     ],
     "scripts": {
         "prepublishOnly": "npm run clean && npm run compile",
