@@ -1,12 +1,12 @@
 ---
-title: sqs/index.ts
-nav_order: 5
+title: dynamo/index.ts
+nav_order: 2
 parent: Modules
 ---
 
 ## index overview
 
-Added in v0.0.1
+Added in v0.0.7
 
 ---
 
