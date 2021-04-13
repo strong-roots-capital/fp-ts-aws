@@ -46,7 +46,8 @@
     "peerDependencies": {
         "@aws-sdk/client-dynamodb": "^3.0.0",
         "@aws-sdk/client-sqs": "^3.0.0",
-        "fp-ts": ">= 2.8.3"
+        "fp-ts": "^2.8.3",
+        "monocle-ts": "^2.3.0"
     },
     "devDependencies": {
         "@types/node": "^14.14.17",
