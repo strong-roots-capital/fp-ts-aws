@@ -1,6 +1,6 @@
 {
     "name": "@strong-roots-capital/fp-ts-aws",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "description": "fp-ts library for aws-sdk",
     "homepage": "https://github.com/strong-roots-capital/fp-ts-aws",
     "bugs": {
