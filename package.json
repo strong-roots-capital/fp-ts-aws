@@ -29,7 +29,7 @@
         "lint:fix": "eslint --ext ts --fix .",
         "lint-staged": "lint-staged",
         "prettier:check": "prettier --list-different src/**/*.ts",
-        "prettier:write": "prettier --write src/**/*.ts",
+        "prettier:fix": "prettier --write src/**/*.ts",
         "test": "npm run lint && npm run prettier:check && echo 'No tests defined' && npm run docs",
         "watch:ava": "nodemon -e 'ts json' -x 'npm run ava -- -s -v --fail-fast || true'",
         "watch:compile": "nodemon -e 'ts json' -x 'npm run compile || true'",
