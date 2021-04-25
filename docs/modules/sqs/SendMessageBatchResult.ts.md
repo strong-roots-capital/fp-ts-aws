@@ -15,7 +15,9 @@ Added in v0.0.1
 - [utils](#utils)
   - [Monoid](#monoid)
   - [SafeSendMessageBatchCommandOutput (type alias)](#safesendmessagebatchcommandoutput-type-alias)
+  - [failed](#failed)
   - [lift](#lift)
+  - [successful](#successful)
 
 ---
 
@@ -45,6 +47,18 @@ export type SafeSendMessageBatchCommandOutput = {
 
 Added in v0.0.1
 
+## failed
+
+Lens to access `Failed` elements in a `SafeSendMessageBatchCommandOutput`.
+
+**Signature**
+
+```ts
+export declare const failed: Traversal<SafeSendMessageBatchCommandOutput, BatchResultErrorEntry>
+```
+
+Added in v0.0.8
+
 ## lift
 
 Lift optional values in `SendMessageBatchResult` into an `Option`.
@@ -56,3 +70,15 @@ export declare const lift: (a: SendMessageBatchCommandOutput) => SafeSendMessage
 ```
 
 Added in v0.0.1
+
+## successful
+
+Lens to access `Successful` elements in a `SafeSendMessageBatchCommandOutput`.
+
+**Signature**
+
+```ts
+export declare const successful: Traversal<SafeSendMessageBatchCommandOutput, SendMessageBatchResultEntry>
+```
+
+Added in v0.0.8
